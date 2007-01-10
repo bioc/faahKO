@@ -12,5 +12,6 @@ Description: Positive ionization mode data in NetCDF file format.
   originally reported in "Assignement of Endogenous Substrates to Enzymes
   by Global Metabolite Profiling" Biochemistry; 2004; 43(45). Also
   includes detected peaks in an xcmsSet.
+biocViews: ExperimentData
 License: unknown
 URL: http://dx.doi.org/10.1021/bi0480335
