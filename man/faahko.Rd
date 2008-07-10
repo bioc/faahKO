@@ -22,7 +22,7 @@ Formal class 'xcmsSet' [package "xcms"] with 8 slots
   ..@ rt       :List of 2
   .. ..$ raw      :List of 12
   .. ..$ corrected:List of 12
-  ..@ cdfpaths : chr [1:12] ...
+  ..@ filepaths : chr [1:12] ...
   ..@ profinfo :List of 2
   .. ..$ method: chr "bin"
   .. ..$ step  : num 0.1
@@ -57,7 +57,7 @@ if (require(xcms)) {
 show(faahko)
 
 ## Access raw data file
-ko15 <- xcmsRaw(cdfpaths(faahko)[1], profmethod = "bin", profstep = 0.1)
+ko15 <- xcmsRaw(filepaths(faahko)[1], profmethod = "bin", profstep = 0.1)
 ko15
 
 }
