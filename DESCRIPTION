@@ -1,5 +1,5 @@
 Package: faahKO
-Version: 1.2.1
+Version: 1.2.2
 Date: 2006-06-08
 Title: Saghatelian et al. (2004) FAAH knockout LC/MS data
 Author: Colin A. Smith <csmith@scripps.edu>
@@ -12,5 +12,5 @@ Description: Positive ionization mode data in NetCDF file format.
   by Global Metabolite Profiling" Biochemistry; 2004; 43(45). Also
   includes detected peaks in an xcmsSet.
 biocViews: ExperimentData
-License: unknown
+License: LGPL
 URL: http://dx.doi.org/10.1021/bi0480335
