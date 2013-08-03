@@ -47,7 +47,7 @@ Formal class 'xcmsSet' [package "xcms"] with 8 slots
 }
 \examples{
 ## The directory with the NetCDF LC/MS files
-cdfpath <- file.path(.find.package("faahKO"), "cdf")
+cdfpath <- file.path(find.package("faahKO"), "cdf")
 cdfpath
 list.files(cdfpath, recursive = TRUE)
 
