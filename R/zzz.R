@@ -4,5 +4,5 @@
      nms <- file.path(system.file(package="faahKO"),
          gsub("/", .Platform$file.sep, attr(faahko, "filepaths")))
      filepaths(faahko) <- nms
-     assign("faahko", faahko, env = globalenv())
+     assign("faahko", faahko, env = getNamespace("faahKO"))
 }
