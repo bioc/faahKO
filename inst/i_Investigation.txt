@@ -38,7 +38,7 @@ Study Title	"Global metabolite profiling of faah(-/-) mice"
 Study Description	"Enzymes regulate biological processes through the conversion of specific substrates to products. Therefore, of fundamental interest for every enzyme is the elucidation of its natural substrates. Here, we describe a general strategy for identifying endogenous substrates of enzymes by untargeted liquid chromatography-mass spectrometry (LC-MS) analysis of tissue metabolomes from wild-type and enzyme-inactivated organisms. We use this method to discover several brain lipids regulated by the mammalian enzyme fatty acid amide hydrolase (FAAH) in vivo, including known signaling molecules (e.g., the endogenous cannabinoid anandamide) and a novel family of nervous system-enriched natural products, the taurine-conjugated fatty acids."
 Study Submission Date	"16/11/2004"
 Study Public Release Date	"16/11/2004"
-Study File Name	"s_Proteomic profiling of yeast TFs.txt"
+Study File Name	"s_Proteomic_profiling_of_yeast_TFs.txt"
 STUDY DESIGN DESCRIPTORS
 Study Design Type	"parallel group design"
 Study Design Type Term Accession Number	"500006"
