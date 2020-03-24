@@ -1,0 +1,4 @@
+^data-raw$
+.gitignore
+.git
+.DS_Store
