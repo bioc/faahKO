@@ -1,10 +1,11 @@
 Package: faahKO
-Version: 1.47.0
-Date: 2020-03-24
+Version: 1.47.1
+Date: 2024-11-13
 Title: Saghatelian et al. (2004) FAAH knockout LC/MS data
 Author: Colin A. Smith <csmith@scripps.edu>
 Maintainer: Steffen Neumann <sneumann@ipb-halle.de>
-Depends: R  (>= 2.10), xcms (>= 3.4.0)
+Depends: R  (>= 2.10)
+Imports: xcms (>= 3.4.0)
 ZipData: no
 Description: Positive ionization mode data in NetCDF file format.
   Centroided subset from 200-600 m/z and 2500-4500 seconds. Data

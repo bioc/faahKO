@@ -2,3 +2,5 @@
 .gitignore
 .git
 .DS_Store
+^.*\.Rproj$
+^\.Rproj\.user$
