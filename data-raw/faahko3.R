@@ -1,6 +1,7 @@
 ## code to prepare `DATASET` dataset goes here
 
 library(xcms)
+library(MSnbase)
 
 ## Get the full path to the CDF files
 cdfs <- dir(system.file("cdf", package = "faahKO"), full.names = TRUE,
@@ -12,7 +13,7 @@ pd <- data.frame(sample_name = sub(basename(cdfs), pattern = ".CDF",
                  sample_group = c(rep("KO", 6), rep("WT", 6)),
                  stringsAsFactors = FALSE)
 
-raw_data <- readMSData(files = cdfs, pdata = new("NAnnotatedDataFrame", pd),
+raw_data <- readMSData(files = cdfs, pdata = AnnotatedDataFrame(pd),
                        mode = "onDisk")
 
 cwp <- CentWaveParam(peakwidth = c(20, 80), noise = 5000)
